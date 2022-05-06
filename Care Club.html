@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title>About Us</title>
+
+</head>
+<style>
+@font-face{
+        font-family: Staali;
+        src: url(/Fonts/Staatliches-Regular.ttf);
+    }
+
+    @keyframes glowingAnimation{
+    20%{text-shadow: 0px 0px 5px #00000081;}
+}
+
+nav ul li a::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: .3s ease-in-out;
+    margin-top: -30px;
+    
+}
+
+nav ul li a:hover::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    animation: glowingAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+.logo h1{
+position: absolute;
+width: 226px;
+height: 177px;
+left: -30px;
+top: 15px;
+
+font-family: Staatliches;
+font-style: normal;
+font-weight: 900px;
+font-size: 45px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+
+}
+
+    *{
+padding: 0;
+margin: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Staali;
+font-weight: 100;
+color: #000000;
+}
+
+nav{
+   background: #D9DBBC;
+   width: 100%;
+   height: 120px;
+   border-radius: 0px 0px 300px 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 20px ;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+</style>
+
+<body>
+
+    <nav>
+       
+        <ul>
+            <li><a href="http://127.0.0.1:5501/Scripts/home.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">NGO LIST</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">DONATE</a></li>
+        </ul>
+     </nav>
+
+<div class="logo">
+<h1>CARE<br>CLUB</h1>
+</div>
+<div class="content">
+
+    <hr>
+    <p>"A man's true wealth is the good he does in this world."</p>
+	<p>Start your giving journey</p>
+    <p>We'd love to hear from you</p>
+	<p>Comments,suggestions and questions are always welcome</p>
+    <br>
+	<br>
+	<br>
+	<p>Email Address</p>
+	<p>Phone Number</p>
+	<p>Your Message Here</p>
+	
+	<p>Submit</p>
+	<p>or write to us at Careclub@gmail.com</p>
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+
+
+
+
+<div class="rectangle">
+    <hr>
+</div>
+
+
+   
+    <h1 id="FAQ">FAQ</h1>
+    <h1 id="LINK">Link</h1>
+    
+</div>
+
+
+<div class="endLinks">
+
+    <h1></h1>
+
+</div>
+
+
+
+
+
+    
+
+ 
+</body>
+</html>
